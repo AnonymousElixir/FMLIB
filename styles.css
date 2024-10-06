@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.profile h2 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.profile p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: hsl(75, 94%, 57%);
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #121212;
+    transform: translateY(-2px);
+}
+
+.attribution {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: underline;
+}
